@@ -60,3 +60,11 @@ C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\bin\Debug\es\Dev
 C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
 C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
 C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.SifremiUnuttumEkranı.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.calisanEkle.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.yoneticiEkrani.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.ürünPaneli.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.satisPaneli.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.uGuncelle.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.cGuncelle.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.calisanEkran.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.urunArama.resources

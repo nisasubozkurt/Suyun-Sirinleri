@@ -21,6 +21,7 @@ namespace Suyun_Şirinleri_
 
         private void button1_Click(object sender, EventArgs e)
         {
+ 
             string sifre = null;
             try
             {
@@ -35,10 +36,12 @@ namespace Suyun_Şirinleri_
                     if (reader["mail"].ToString() == textBox1.Text)
                     {
                         sifre = reader["sifre"].ToString();
+                        break;
                     }
                 }
                 string mesaj = "Hesabınızın Şifresi: " + sifre;
                 MailGonder("Hesabınızın Şifresi", mesaj);
+
             }
             catch (Exception E)
             {

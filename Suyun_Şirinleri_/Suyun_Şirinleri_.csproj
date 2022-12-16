@@ -60,6 +60,24 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="calisanEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calisanEkle.Designer.cs">
+      <DependentUpon>calisanEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calisanEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calisanEkran.Designer.cs">
+      <DependentUpon>calisanEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cGuncelle.Designer.cs">
+      <DependentUpon>cGuncelle.cs</DependentUpon>
+    </Compile>
     <Compile Include="giris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,12 +86,51 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="satisPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="satisPaneli.Designer.cs">
+      <DependentUpon>satisPaneli.cs</DependentUpon>
+    </Compile>
     <Compile Include="SifremiUnuttumEkranı.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SifremiUnuttumEkranı.Designer.cs">
       <DependentUpon>SifremiUnuttumEkranı.cs</DependentUpon>
     </Compile>
+    <Compile Include="uGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uGuncelle.Designer.cs">
+      <DependentUpon>uGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urunArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urunArama.Designer.cs">
+      <DependentUpon>urunArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yoneticiEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yoneticiEkrani.Designer.cs">
+      <DependentUpon>yoneticiEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ürünPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ürünPaneli.Designer.cs">
+      <DependentUpon>ürünPaneli.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="calisanEkle.resx">
+      <DependentUpon>calisanEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calisanEkran.resx">
+      <DependentUpon>calisanEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cGuncelle.resx">
+      <DependentUpon>cGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="giris.resx">
       <DependentUpon>giris.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,8 +144,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="satisPaneli.resx">
+      <DependentUpon>satisPaneli.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SifremiUnuttumEkranı.resx">
       <DependentUpon>SifremiUnuttumEkranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uGuncelle.resx">
+      <DependentUpon>uGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urunArama.resx">
+      <DependentUpon>urunArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yoneticiEkrani.resx">
+      <DependentUpon>yoneticiEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ürünPaneli.resx">
+      <DependentUpon>ürünPaneli.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

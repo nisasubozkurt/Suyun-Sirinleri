@@ -41,15 +41,17 @@ namespace Suyun_Şirinleri_
         private void giris_Load(object sender, EventArgs e)
         {
             cnn = new SqlConnection(connetionString);
+            adTxt.Text = "Nisasu";
+            sifreTxt.Text = "2304";
         }
-
-
+        
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             cnn.Open();
             bool giris = false;
             SqlCommand cmd = new SqlCommand("SELECT * FROM per_tablo", cnn);
             SqlDataReader reader = cmd.ExecuteReader();
+            Form ekran;
             while (reader.Read())
             {
                 if (reader["kullaniciAdi"].ToString() == adTxt.Text && reader["sifre"].ToString() == sifreTxt.Text)
@@ -57,10 +59,17 @@ namespace Suyun_Şirinleri_
                     if (reader["rol"].ToString() == "True")
                     {
                         MessageBox.Show("Yönetici giriş yaptı,Hoşgeldiniz.");
+                        ekran = new yoneticiEkrani();
+                        this.Hide();
+                        ekran.Show();
+                        
                     }
                     if (reader["rol"].ToString() == "False")
                     {
                         MessageBox.Show("Çalışan girişi yapıldı.", reader["rol"].ToString());
+                        ekran = new calisanEkran();
+                        this.Hide();
+                        ekran.Show();
                     }
                     giris = true;
                     break;
@@ -81,6 +90,11 @@ namespace Suyun_Şirinleri_
         {
             SifremiUnuttumEkranı sifremiUnuttum = new SifremiUnuttumEkranı();
             sifremiUnuttum.Show();
+        }
+
+        private void sifreTxt_EditValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
