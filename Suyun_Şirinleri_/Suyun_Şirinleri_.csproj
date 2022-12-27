@@ -98,6 +98,11 @@
     <Compile Include="SifremiUnuttumEkranı.Designer.cs">
       <DependentUpon>SifremiUnuttumEkranı.cs</DependentUpon>
     </Compile>
+    <Compile Include="suyun_sirinleriDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>suyun_sirinleriDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="uGuncelle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +176,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="suyun_sirinleriDBDataSet.xsc">
+      <DependentUpon>suyun_sirinleriDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="suyun_sirinleriDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>suyun_sirinleriDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="suyun_sirinleriDBDataSet.xss">
+      <DependentUpon>suyun_sirinleriDBDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
