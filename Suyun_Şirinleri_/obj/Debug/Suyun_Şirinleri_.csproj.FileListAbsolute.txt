@@ -68,3 +68,7 @@ C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_
 C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.cGuncelle.resources
 C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.calisanEkran.resources
 C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.urunArama.resources
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\bin\Debug\Suyun_Şirinleri_.exe.manifest
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\bin\Debug\Suyun_Şirinleri_.application
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.exe.manifest
+C:\Users\LaraA\source\repos\Suyun_Şirinleri_\Suyun_Şirinleri_\obj\Debug\Suyun_Şirinleri_.application

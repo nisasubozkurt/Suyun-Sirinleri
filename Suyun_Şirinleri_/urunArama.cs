@@ -12,7 +12,7 @@ namespace Suyun_Şirinleri_
             InitializeComponent();
         }
 
-        private SqlConnection cnn = new SqlConnection("Data Source=LAPTOP-TO0C5CS2;Initial Catalog=suyun_sirinleriDB;Integrated Security=True");
+        private SqlConnection cnn = new SqlConnection("Data Source=.;Initial Catalog=suyun_sirinleriDB;Integrated Security=True");
         private SqlCommand komut;
         private SqlDataReader dr;
 

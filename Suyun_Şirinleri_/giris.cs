@@ -15,7 +15,7 @@ namespace Suyun_Şirinleri_
 {
     public partial class giris : Form
     {
-        string connetionString = "Data Source=LAPTOP-TO0C5CS2;Initial Catalog=suyun_sirinleriDB;Integrated Security=True";
+        string connetionString = "Data Source=.;Initial Catalog=suyun_sirinleriDB;Integrated Security=True";
         SqlConnection cnn = null;
 
         public giris()

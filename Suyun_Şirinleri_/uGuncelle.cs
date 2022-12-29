@@ -13,7 +13,7 @@ namespace Suyun_Şirinleri_
 {
     public partial class uGuncelle : Form
     {
-        string connetionString = "Data Source=LAPTOP-TO0C5CS2;Initial Catalog=suyun_sirinleriDB;Integrated Security=True";
+        string connetionString = "Data Source=.;Initial Catalog=suyun_sirinleriDB;Integrated Security=True";
         SqlConnection cnn = null;
 
         public string[] cinsler = { "", "Peluş Oyuncak", "Oyuncak Araba", "Oyuncak Bebek", "Ahşap Oyuncaklar", "Bebek Oyuncakları", "Eğitici Oyuncaklar", "Figür Oyuncaklar", "Hobi Oyuncakları", "Kutu Oyuncakları", "Puzzle" };

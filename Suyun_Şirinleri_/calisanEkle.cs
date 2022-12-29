@@ -17,7 +17,7 @@ namespace Suyun_Şirinleri_
         {
             InitializeComponent();
         }
-        string connetionString = "Data Source=LAPTOP-TO0C5CS2;Initial Catalog=suyun_sirinleriDB;Integrated Security=True";
+        string connetionString = "Data Source=.;Initial Catalog=suyun_sirinleriDB;Integrated Security=True";
         SqlConnection cnn = null;
 
         string[] roller = { "Yönetici", "Çalışan" };

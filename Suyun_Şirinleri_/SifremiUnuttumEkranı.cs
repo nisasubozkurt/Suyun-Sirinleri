@@ -25,7 +25,8 @@ namespace Suyun_Şirinleri_
             string sifre = null;
             try
             {
-                SqlConnection cnn = new SqlConnection("Data Source=LAPTOP-TO0C5CS2;Initial Catalog=suyun_sirinleriDB;Integrated Security=True");
+               // SqlConnection cnn = new SqlConnection("Data Source=LAPTOP-TO0C5CS2;Initial Catalog=suyun_sirinleriDB;Integrated Security=True");
+                SqlConnection cnn = new SqlConnection("Data Source=.;Initial Catalog=suyun_sirinleriDB;Integrated Security=True");
                 if (cnn.State == ConnectionState.Closed)
                     cnn.Open();
 
